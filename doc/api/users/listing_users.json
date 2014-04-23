@@ -1,0 +1,41 @@
+{
+  "resource": "Users",
+  "http_method": "GET",
+  "route": "/users",
+  "description": "Listing users",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/users",
+      "request_body": null,
+      "request_headers": {
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\"users\":[{\"id\":248,\"email\":\"user1@domain.com\"},{\"id\":249,\"email\":\"user2@domain.com\"},{\"id\":250,\"email\":\"user3@domain.com\"},{\"id\":251,\"email\":\"user4@domain.com\"},{\"id\":252,\"email\":\"user5@domain.com\"}]}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Total": "5",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "\"c1aa38baeea8b1262dd9a73bb30c1dfc\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "346b0fd7-94e5-413a-bd40-99299fb18235",
+        "X-Runtime": "0.009572",
+        "Content-Length": "201"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}

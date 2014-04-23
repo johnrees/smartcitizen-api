@@ -3,10 +3,16 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.0'
 gem 'rails-api'
 gem 'active_model_serializers'
-gem 'spring', :group => :development
 gem 'pg'
-gem 'devise'
 gem 'cassandra'
+gem 'kaminari'
+gem 'api-pagination'
+
+group :development do
+  gem 'spring'
+  # gem 'apipie-rails'
+
+end
 
 group :test do
   gem 'minitest'
@@ -14,8 +20,11 @@ group :test do
 end
 
 group :development, :test do
+  gem 'faker'
+  gem 'raddocs'
   gem 'rspec-rails'
   gem 'factory_girl_rails'
+  gem 'rspec_api_documentation'
 end
 
 # To use ActiveModel has_secure_password

@@ -1,0 +1,40 @@
+{
+  "resource": "Users",
+  "http_method": "GET",
+  "route": "/users/:id",
+  "description": "Getting a single user",
+  "explanation": null,
+  "parameters": [
+
+  ],
+  "requests": [
+    {
+      "request_method": "GET",
+      "request_path": "/users/253",
+      "request_body": null,
+      "request_headers": {
+        "Host": "example.org",
+        "Cookie": ""
+      },
+      "request_query_parameters": {
+      },
+      "request_content_type": null,
+      "response_status": 200,
+      "response_status_text": "OK",
+      "response_body": "{\"user\":{\"id\":253,\"email\":\"testuser@test.com\"}}",
+      "response_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "\"7ad7b290bc62b3fbfdd93f196234e86d\"",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "X-Request-Id": "3572d4ad-91ae-41f1-a76e-f6c20d4fc8e6",
+        "X-Runtime": "0.004449",
+        "Content-Length": "47"
+      },
+      "response_content_type": "application/json; charset=utf-8",
+      "curl": null
+    }
+  ]
+}
