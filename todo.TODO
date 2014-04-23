@@ -1,0 +1,13 @@
+CASSANDRA
+ ☐ sensors (and calibration)
+
+POSTGRES
+ ☐ users
+ ☐ devices
+ ☐ groups
+ ☐ media
+
+REDIS
+ ☐ groups?
+
+comments
